@@ -1,0 +1,11 @@
+{
+  "name": "Data-Structures-and-Algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Adutchguy/Data-Structures-and-Algorithms.git",
+  "author": "Michael <mdm_8@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^20.0.4"
+  }
+}
