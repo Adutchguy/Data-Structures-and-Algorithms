@@ -7,11 +7,12 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "jest": {
+    "build": "babel src -d lib"
+  },
+  "jest": {
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
-    },
-    "build": "babel src -d lib"
+    }
   },
   "dependencies": {
     "eslint": "^4.5.0",
