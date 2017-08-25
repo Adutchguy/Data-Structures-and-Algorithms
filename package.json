@@ -6,13 +6,22 @@
   "author": "Michael <mdm_8@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "build": "babel src -d lib"
   },
   "dependencies": {
     "eslint": "^4.5.0",
     "travis": "^0.1.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "jest": "^20.0.4"
   }
 }
