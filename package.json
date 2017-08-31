@@ -6,7 +6,8 @@
   "author": "Michael <mdm_8@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage",
     "build": "babel src -d lib"
   },
   "jest": {
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.3.0",
     "travis": "^0.1.1"
   },
   "devDependencies": {
